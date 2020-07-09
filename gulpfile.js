@@ -98,7 +98,8 @@ gulp.task('copy', function () {
   return gulp.src([
     'source/fonts/**/*.{woff,woff2,otf}',
     'source/img/**',
-    'source/audio/**'
+    'source/audio/**',
+    "source/favicon.ico"
   ], {
     base: 'source'
   })
