@@ -1,0 +1,103 @@
+.page-footer {
+  flex: 0 0 auto;
+  padding: 30px 0 20px;
+
+  background-color: $color-black;
+}
+
+.page-footer__wrapper {
+  max-width: 1170px;
+  margin: 0 auto;
+
+  line-height: 14px;
+  color: beige;
+  text-align: center;
+
+  a {
+    outline: none;
+  }
+}
+
+.page-footer__title {
+  margin-top: 0;
+
+  font-size: 36px;
+  font-weight: 800;
+  text-align: center;
+  color: $color-beige;
+  text-transform: uppercase;
+}
+
+.page-footer__questions {
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.page-footer__person {
+  margin-top: 0;
+  margin-bottom: 8px;
+
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.page-footer__email {
+  display: inline-block;
+  margin-bottom: 30px;
+
+  color: $color-beige;
+  text-decoration: none;
+
+  &:hover,
+  &:focus {
+    color: $color-yellow;
+  }
+
+  &:active {
+    color: $color-pink;
+  }
+}
+
+@media (max-width: $tablet-max-width) {
+  .page-footer {
+    padding: 20px 0;
+  }
+
+  .page-footer__title {
+    font-size: 27px;
+  }
+}
+
+@media (max-width: $mobile-width) {
+  .page-footer__wrapper {
+    width: 280px;
+
+    line-height: 18px;
+  }
+
+  .page-footer__title {
+    margin-bottom: 15px;
+    font-size: 24px;
+  }
+
+  .page-footer__person {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .page-footer__wrapper {
+    padding: 0 20px;
+
+    text-align: left;
+  }
+
+  .page-footer__title {
+    text-align: left;
+  }
+
+  .page-footer__social {
+    max-width: 1170px;
+    margin: 0 auto;
+  }
+}

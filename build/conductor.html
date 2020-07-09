@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Дирижер Кандинского Оркестра">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <title>Дирижер Кандинского Оркестра</title>
+  <link href="css/style.min.css" rel="stylesheet">
+</head>
+
+<body>
+<div class="sprite" style="display: none">
+  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><symbol id="icon-facebook" viewBox="0 0 320 512"><path fill="currentColor" d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"></path></symbol><symbol id="icon-instagram" viewBox="0 0 448 512"><path fill="currentColor" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></symbol><symbol id="icon-up-arrow" viewBox="0 0 448 512"><path d="M240.971 130.524l194.343 194.343c9.373 9.373 9.373 24.569 0 33.941l-22.667 22.667c-9.357 9.357-24.522 9.375-33.901.04L224 227.495 69.255 381.516c-9.379 9.335-24.544 9.317-33.901-.04l-22.667-22.667c-9.373-9.373-9.373-24.569 0-33.941L207.03 130.525c9.372-9.373 24.568-9.373 33.941-.001z"></path></symbol><symbol id="icon-vk" viewBox="0 0 576 512"><path fill="currentColor" d="M545 117.7c3.7-12.5 0-21.7-17.8-21.7h-58.9c-15 0-21.9 7.9-25.6 16.7 0 0-30 73.1-72.4 120.5-13.7 13.7-20 18.1-27.5 18.1-3.7 0-9.4-4.4-9.4-16.9V117.7c0-15-4.2-21.7-16.6-21.7h-92.6c-9.4 0-15 7-15 13.5 0 14.2 21.2 17.5 23.4 57.5v86.8c0 19-3.4 22.5-10.9 22.5-20 0-68.6-73.4-97.4-157.4-5.8-16.3-11.5-22.9-26.6-22.9H38.8c-16.8 0-20.2 7.9-20.2 16.7 0 15.6 20 93.1 93.1 195.5C160.4 378.1 229 416 291.4 416c37.5 0 42.1-8.4 42.1-22.9 0-66.8-3.4-73.1 15.4-73.1 8.7 0 23.7 4.4 58.7 38.1 40 40 46.6 57.9 69 57.9h58.9c16.8 0 25.3-8.4 20.4-25-11.2-34.9-86.9-106.7-90.3-111.5-8.7-11.2-6.2-16.2 0-26.2.1-.1 72-101.3 79.4-135.6z"></path></symbol></svg>
+</div>
+
+<header class="page-header" id="header">
+  <div class="page-header__wrapper">
+    <a class="page-header__logo" href="index.html">
+      <img class="page-header__logo-img" src="img/logo.png" alt="Кандинский Оркестр" width="100" height="100">
+    </a>
+
+    <nav class="main-nav main-nav--nojs main-nav--closed">
+      <button class="main-nav__button" type="button">
+        <span class="visually-hidden">Открыть меню</span>
+      </button>
+      <ul class="main-nav__list">
+        <li class="main-nav__item">
+          <a class="main-nav__link" href="index.html">О нас</a>
+        </li>
+        <li class="main-nav__item">
+          <a class="main-nav__link main-nav__link--active">Дирижер</a>
+        </li>
+        <li class="main-nav__item">
+          <a class="main-nav__link" href="concerts.html">Концерты</a>
+        </li>
+        <li class="main-nav__item">
+          <a class="main-nav__link" href="media.html">Медиа</a>
+        </li>
+        <li class="main-nav__item">
+          <a class="main-nav__link" href="support.html">Поддержать</a>
+        </li>
+        <li class="main-nav__item main-nav__item--contacts">
+          <a class="main-nav__link" tabindex="0" href="#footer">Контакты</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<div class="wrapper">
+  <main>
+    <section class="intro">
+      <div class="intro__wrapper">
+        <h1 class="intro__title">Kandinsky Orchestra</h1>
+      </div>
+    </section>
+
+    <section class="conductor">
+      <div class="conductor__wrapper">
+        <h2 class="conductor__title">Дирижер</h2>
+
+        <div class="conductor__info">
+          <img class="conductor__info-image" src="img/kai.jpeg" alt="Художественный руководитель" width="214" height="320">
+          <div class="conductor__info-text-wrapper">
+            <p class="conductor__info-text">
+              Немецко-австрийский дирижёр и композитор <strong>Кай Йоханнес Польцхофер</strong> (родился в Мюнхене,
+              Германия в 1989 году) с отличием окончил
+              консерваторию в Лейпциге по классу композиции и философский факультет университета в Граце, в 2018 году
+              получил
+              докторскую степень Гарвардском университете (США). Проходил обучение у маэстро Леонида Грина (Филадельфия,
+              США).
+              С 2018 года является студентом проф. Александра Васильевича Алексеева Санкт-Петербургской Государственной
+              консерватории. Кай Польцхофер является обладателем многих наград, а также публикаций о философии и музыке,
+              преподавал теорию музыки в Гарвардском университете и философию в университете Лейпцига. Помимо статей о
+              музыке
+              и философии, Кай пишет произведения и дирижирует. Его музыка транслировалась по радио Österreich1,
+              Bayerischer
+              Rundfunk. Он работал с ведущими ансамблями современной музыкальной сцены: JACK Quartet, Ensemble
+              Recherche,
+              Parker Quartet, Elision Ensemble и др. Был участником мастер-классов с Пааво Ярви, Неэме Ярви, Даниэлем
+              Гатти
+              и
+              Сиан Эдвардс и работал помощником дирижеров Илана Волкова и Федерико Кортезе. Инициатор и соучредитель
+              Forma
+              Leipzig, Гарвардского оркестра DuBois и петербургского Kandinsky Orchestra С 2013
+              года
+              его произведения издаются издательством Gravis (Берлин). Больше информации можно прочесть на сайте:
+              <a class="conductor__info-site-link" href="https://polzhofer.mur.at" target="_blank" rel="nofollow">www.polzhofer.mur.at</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="page-footer" id="footer">
+  <div class="page-footer__wrapper">
+    <h2 class="page-footer__title">Контакты</h2>
+    <p class="page-footer__questions">По всем вопросам о предстоящих мероприятих пишите нам на:</p>
+    <a class="page-footer__email" href="mailto:info@kandinskyorchestra.ru" target="_blank" rel="nofollow">info@kandinskyorchestra.ru</a>
+    <p class="page-footer__person">Арт-директор: Филипп&nbspСамутин</p>
+    <a class="page-footer__email" href="mailto:art@kandinskyorchestra.ru" target="_blank" rel="nofollow">art@kandinskyorchestra.ru</a>
+    
+    
+    
+    <p class="page-footer__person">Менеджер: Дмитрий&nbspДробко</p>
+    <a class="page-footer__email" href="mailto:mng@kandinskyorchestra.ru" target="_blank" rel="nofollow">mng@kandinskyorchestra.ru</a>
+  </div>
+  <div class="page-footer__social social">
+    <ul class="social-list">
+      <li class="social__item">
+        <a class="social__link social__link--facebook" href="https://facebook.com/KandinskyOrchestraPetersburg" target="_blank" rel="nofollow">Follow us on Facebook
+          <span class="visually-hidden">Facebook</span>
+          <svg width="22" height="22">
+            <use xlink:href="#icon-facebook"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="social__item">
+        <a class="social__link social__link--vk" href="https://vk.com/kandinskyorchestra" target="_blank" rel="nofollow">Follow us on Vkontakte
+          <span class="visually-hidden">Vkontakte</span>
+          <svg width="22" height="22">
+            <use xlink:href="#icon-vk"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="social__item">
+        <a class="social__link social__link--instagram" href="https://www.instagram.com/kandinsky.orchestra" target="_blank" rel="nofollow">Follow us on Instagram
+          <span class="visually-hidden">Instagram</span>
+          <svg width="22" height="22">
+            <use xlink:href="#icon-instagram"></use>
+          </svg>
+        </a>
+      </li>
+    </ul>
+  </div>
+</footer>
+
+</div>
+
+<a class="button-up" href="#header">
+  <span class="visually-hidden">Вернутся к началу страницы</span>
+  <svg width="28" height="28">
+    <use xlink:href="#icon-up-arrow"></use>
+  </svg>
+</a>
+
+<script type="text/javascript" src="js/main.min.js"></script>
+</body>
+</html>

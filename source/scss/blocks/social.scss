@@ -1,0 +1,70 @@
+@keyframes social {
+  0% {
+    opacity: 0.3;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.social-list {
+  @include reset-list;
+
+  display: flex;
+  justify-content: space-between;
+  margin: 0 20px;
+}
+
+.social__link {
+  position: relative;
+
+  display: block;
+  padding: 8px 10px 8px 45px;
+
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: beige;
+  background-color: transparent;
+  border: 2px solid rgba($color-beige, 0.7);
+  border-radius: 5px;
+
+  &:hover,
+  &:focus {
+    color: $color-black;
+
+    background-color: $color-beige;
+    outline: none;
+    animation: social 2s ease-out;
+  }
+
+  &:active {
+    color: $color-black;
+
+    background-color: $color-white;
+  }
+
+  svg {
+    position: absolute;
+    top: 7px;
+    left: 10px;
+  }
+}
+
+@media (max-width: $tablet-max-width) {
+  .social-list {
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+  }
+
+  .social__link {
+    margin-bottom: 20px;
+  }
+
+  .social__link--instagram {
+    margin-bottom: 0;
+  }
+}
